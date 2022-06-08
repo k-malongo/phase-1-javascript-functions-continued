@@ -10,8 +10,8 @@ function mondayWork(plan='go to the office') {
    mondayWork('This Monday, I will work from home.')
 
    function wrapAdjective(adjective){
-    const specialChar=function(char){
-        return `You are ${adjective}${char}${adjective}!`
+    const specialChar=function(character){
+        return `You are ${adjective}${character}${adjective}!`
     }
     return specialChar
 
